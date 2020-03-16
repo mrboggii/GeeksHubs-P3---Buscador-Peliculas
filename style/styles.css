@@ -1,0 +1,111 @@
+html, body {
+    height:100%;
+    margin:0;
+    background-color: #FEFEFE;
+}
+
+a{text-decoration: none;}
+
+a:visited{color: black}
+
+
+#contenedorGeneral {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;    
+}
+
+#logo {
+    color:#F24C27;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+#logo a:visited {color: #F24C27;}
+
+
+form {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20%;
+}
+
+input, button {
+    height: 2rem;
+    margin: 0;
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+}
+
+button {
+    background-color: #FEFEFE;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+
+#contenido > div {
+    display: grid;
+    grid-template-areas: "img h2"
+                         "img info";
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 2fr 4fr;
+    margin: 2% 15%;
+    border: 2px solid rgba(0, 0, 0, 0.21);
+}  
+
+#contenido > div:first-child {
+    margin-top: 1%;
+}
+
+#contenido > div:last-child {
+    margin-bottom: 2%;
+}
+
+#contenido img {
+    grid-area: img;
+    border-right: 2px solid rgba(0, 0, 0, 0.21);
+}
+
+#contenido  h2 {
+    grid-area: h2;
+    margin: 0;
+    text-align: center;
+}
+
+#contenido div {
+    grid-area: info;
+}
+
+div  p {
+    border-top: 2px solid rgba(0, 0, 0, 0.21);
+    padding: 1% 2%;
+    margin: 0
+}
+
+
+footer {
+    text-align: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.21);
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer > div:last-child {font-size: .8rem}

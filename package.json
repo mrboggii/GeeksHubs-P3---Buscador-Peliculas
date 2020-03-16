@@ -1,0 +1,27 @@
+{
+  "name": "geekshubs-p3---buscador-peliculas",
+  "version": "1.0.0",
+  "description": "3r proyecto",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "node": "^13.10.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrboggii/GeeksHubs-P3---Buscador-Peliculas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrboggii/GeeksHubs-P3---Buscador-Peliculas/issues"
+  },
+  "homepage": "https://github.com/mrboggii/GeeksHubs-P3---Buscador-Peliculas#readme"
+}
