@@ -28,16 +28,23 @@ function mostrarInfo(pelicula) {
 }
 
 //Con esta función obtengo el json de las imágenes pero aún no logro usarla
-// id = pelicula => {
-//     URLImagen = `${direccion}movie/${pelicula.id}/images?api_key=${apiKey}`
+ id = pelicula => {
+     URLImagen = `${direccion}movie/${pelicula.id}/images?api_key=${apiKey}`
 
-//     fetch(URLImagen).then(response => response.json())
-//     .then(response => {
-//         response.posters.forEach(imagen => mostrarImagen(imagen))
-//     })
-// }
+     fetch(URLImagen).then(response => response.json())
+     .then(response => {
+         response.posters.forEach(imagen => mostrarImagen(imagen))
+     })
+ }
 
-//Modifica el template al hacer click.
+
+
+
+
+
+
+
+ //Modifica el template al hacer click.
 function modificacionesAlBuscar () {
     //Agrega los márgenes de la nueva posición.
     document.getElementById('logo').style.fontSize = "2rem"
