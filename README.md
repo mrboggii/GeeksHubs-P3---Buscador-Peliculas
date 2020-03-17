@@ -5,12 +5,12 @@ Un Netflix más barato! consigue los mismos resultados recortando en estilos y c
 Interfaz que conecta con la API de The Movie Data Base de la cual recogemos 
 los datos sobre la mayoria de las peliculas filmadas.
 
-### Repositorio 🚀
+### lIBRARY🚀
 
 ```bash
 git clone https://github.com/mrboggii/GeeksHubs-P3---Buscador-Peliculas
 ```
-### Construido con 🛠️
+### MADE WITH 🛠️
 
 1. HTML5
 2. CSS3
@@ -21,9 +21,9 @@ git clone https://github.com/mrboggii/GeeksHubs-P3---Buscador-Peliculas
 
 
 
-### Autor ✒️
+### AUTHOR ✒️
 
 Ioan Bogdan Prutean  
 
-### Licencia 📄
+### LICENCE 📄
 Licencia (Apache) .
