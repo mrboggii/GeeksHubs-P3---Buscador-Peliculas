@@ -1,9 +1,9 @@
 # GeeksHubs-P3---Buscador-Peliculas
 
 
-Pagina web que muestra los resultados de las peliculas buscadas. La busqueda se hace a traves de una API que contiene un listado de peliculas.
-Se obtiene el Titulo, descripcion y Genero.
-La web usada es themoviedb.com
+Un Netflix más barato! consigue los mismos resultados recortando en estilos y colores!
+Interfaz que conecta con la API de The Movie Data Base de la cual recogemos 
+los datos sobre la mayoria de las peliculas filmadas.
 
 ### Repositorio 🚀
 
