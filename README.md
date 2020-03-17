@@ -17,10 +17,6 @@ git clone https://github.com/mrboggii/GeeksHubs-P3---Buscador-Peliculas
 3. JS
 
 
-[Bootstrap](https://getbootstrap.com/) - El framework web usado.
-
-
-
 ### AUTHOR ✒️
 
 Ioan Bogdan Prutean  
