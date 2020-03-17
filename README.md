@@ -8,7 +8,7 @@ La web usada es themoviedb.com
 ### Repositorio 🚀
 
 ```bash
-git clone https://github.com/carlosalabau/GeeksHubs-P3-Peliculas
+git clone https://github.com/mrboggii/GeeksHubs-P3---Buscador-Peliculas
 ```
 ### Construido con 🛠️
 
@@ -21,9 +21,9 @@ git clone https://github.com/carlosalabau/GeeksHubs-P3-Peliculas
 
 
 
-### Autores ✒️
+### Autor ✒️
 
-Ioan Bogdan Prutean - 
+Ioan Bogdan Prutean  
 
 ### Licencia 📄
-Este proyecto está bajo la Licencia (Apache) - mira el archivo LICENSE.md para detalles
+Licencia (Apache) .
